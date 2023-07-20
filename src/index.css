@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h2{
+    margin-left: 20px;
+    font-size: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button{
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 12px 14px;
+}
+
+.button:hover,
+.button:active {
+    background-color: initial;
+    color: #FF4742;
+}
+
+li{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 400px;
+}
+
+li:hover{
+    border: 1px solid #FF4742;
+}
+
+.recipe-card{
+    border: 1px solid #000000;
+}
+
+.recipe-card h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipe-card h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipe-card p{
+    font-size: 20px;
+    text-align: center;
 }
